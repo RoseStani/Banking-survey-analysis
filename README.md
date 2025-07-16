@@ -44,6 +44,12 @@ In an evolving financial landscape, many users now operate accounts with more th
 - **F5**: Do family or relational ties result in multi-banking?
 - **F6**: How much does convenience and mobility influence choice?
 
+This section highlights the main questions used to assess what drives multi-banking behavior.
+
+**List of questions made for assessing factors:**
+
+![Survey Questions Figure](images/questions-figure.png)
+
 ---
 
 ## Data Collection
