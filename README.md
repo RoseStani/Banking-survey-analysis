@@ -48,7 +48,8 @@ This section highlights the main questions used to assess what drives multi-bank
 
 **List of questions made for assessing factors:**
 
-![Survey Questions Figure](images/questions-figure.png)
+<img src="images/questions-figure.png" width="500">
+
 
 ---
 
