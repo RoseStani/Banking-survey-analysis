@@ -1,7 +1,9 @@
 # Banking Survey Analysis 
 
-Welcome to the **Banking Survey Analysis** project!  
-This project explores the increasing trend of **multi-banking behavior** among consumers, identifying key factors that drive individuals to use multiple banking institutions.
+MULTI-BANKING BEHAVIOR: ASSESSING THE INFLUENCE OF BANKING APP QUALITY AND OTHER FACTORS 🏦
+
+Welcome to the **Multi-Banking Behavior** project!  
+This project explores the increasing trend of consumers using **multiple banks**, identifying whether **mobile banking app quality** or **other factors** (like services, products, and security) are the main drivers.
 
 ---
 
