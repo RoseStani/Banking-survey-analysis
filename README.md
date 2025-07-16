@@ -84,12 +84,12 @@ This section highlights the main questions used to assess what drives multi-bank
 Visualizations created to show the strength of different motivators behind multi-banking behavior
 
 <p align="center">
-  <img src="images/factor1.png" width="45%" style="margin-right:10px;">
-  <img src="images/factor234.png" width="45%">
+  <img src="images/factor234.png" width="45%" style="margin-right:10px;">
+  <img src="images/factor56.png" width="45%">
 </p>
 
 <p align="center">
-  <img src="images/factor56.png" width="50%">
+  <img src="images/factor1.png" width="50%">
 </p>
 
 ---
