@@ -40,18 +40,29 @@ These columns include free-text or multi-response inputs not used in analysis or
 - If banks were smartphones, your primary bank is a(n) ______ because it’s ______.
 
 ```python
-columns_to_drop = [
-    'Name',
-    'Which banks do you use?',
-    'Which is your primary bank?',
-    'What type of accounts do you have?',
-    'How often do you use your secondary bank?',
-    'Why do you use your secondary bank? (Select all that apply)',
-    'What would make you stick to just one bank? (SELECT ALL THAT APPLY)',
-    'If banks were smartphones, your primary bank is a(n) ______ because it’s ______.'
+# Clean up column names first (strip spaces and \n)
+df.columns = df.columns.str.strip()
+
+# Define keywords from open-ended columns to match dynamically
+drop_keywords = [
+    "Name",
+    "Which banks do you use",
+    "Which is your primary bank",
+    "What type of accounts do you have",
+    "How often do you use your secondary bank",
+    "Why do you use your secondary bank",
+    "What would make you stick to just one bank",
+    "If banks were smartphones"
 ]
 
-df.drop(columns=[col for col in columns_to_drop if col in df.columns], inplace=True)
+# Drop columns if they contain any of the keywords above
+cols_to_drop = [col for col in df.columns for keyword in drop_keywords if keyword.lower() in col.lower()]
+df.drop(columns=cols_to_drop, inplace=True)
+
+# Preview to confirm
+print("Dropped columns:")
+print(cols_to_drop)
+
 ```
 
 ## 4. Rename Columns for Clarity
