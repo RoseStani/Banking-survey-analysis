@@ -4,11 +4,10 @@
 
 ## 1️⃣ Survey Questions Overview
 
-<center>
+<p align="center">
+  <img src="../images/questions-figure.png" alt="Survey Questions" width="700"/>
+</p>
 
-![Survey Questions](../images/questions-figure.png)
-
-</center>
 
 This table shows the 21 variables used in the study. It covers demographics (like age, income), banking behavior, and user perceptions related to banking apps and services. These questions shaped the entire research foundation.
 
