@@ -100,15 +100,6 @@ Visualizations created to show the strength of different motivators behind multi
 
 ---
 
-## Project Files
-
-- `survey-data.csv` – Anonymized dataset
-- `analysis.ipynb` – Python data prep and transformation
-- `tableau-dashboard.twbx` – Interactive Tableau dashboard
-- `project-report.docx` – Full project documentation
-
----
-
 ## Summary
 
 This project offers insights for banks to understand the complex, multi-factor reasons behind consumers' choice to engage with multiple institutions — beyond just digital convenience. It provides analytical groundwork for improving services and app experiences to boost customer loyalty.
