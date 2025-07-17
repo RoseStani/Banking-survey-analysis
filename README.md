@@ -11,6 +11,12 @@ This project explores the increasing trend of consumers using **multiple banks**
 
 In an evolving financial landscape, many users now operate accounts with more than one bank. While the rise of digital banking plays a role, this study investigates a wider range of influences — including financial products, service quality, and personal preferences.
 
+| Section   | Description                                                                           | Link                                           |
+| --------- | ------------------------------------------------------------------------------------- | ---------------------------------------------- |
+|  Part 1 | Visual Dashboard & Analytics — Graphs, charts, factor visuals, and Tableau dashboards   | [View Part 1](part1_dashboard/README.md)       |
+|  Part 2 | Python Data Cleaning & Analysis — Data prep, wrangling, and model-ready datasets        | [View Part 2](part2_python_cleaning/README.md) |
+|  Part 3 | SPSS Outputs & Interpretation — Outputs from IBM SPSS and result interpretation         | [View Part 3](part3_spss_output/README.md)     |
+
 ---
 
 ## Objective
