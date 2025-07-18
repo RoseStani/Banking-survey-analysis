@@ -74,7 +74,24 @@ It suggests that a blend of **risk management and service gaps in primary banks*
 The **mobile app** variable had the **lowest communality** and weakest loading — indicating it's **not a major driver** for using multiple banks in this dataset.
 
 ---
+<!-- Total Variance Explained -->
+<div align="center">
+  <img src="../images/pca6.png" width="50%">
+</div>
 
+**Interpretation:**
+
+The *Total Variance Explained* table summarizes how much variance in the dataset is captured by each principal component.
+
+- **Initial Eigenvalues** column shows the total variance explained by each component before extraction.
+- **Extraction Sums of Squared Loadings** shows the variance retained after the PCA extraction (based on components with eigenvalues > 1).
+- The **first component** explains the most variance.
+- Components that explain **significant variance (usually eigenvalue > 1)** are retained for further analysis.
+- The **cumulative %** helps decide how many components are enough to retain most of the information.
+
+This table is crucial in determining how well the PCA model reduces dimensionality while preserving information.
+
+---
 ### Final Insight: What Drives Multi-Banking?
 
 This PCA suggests a **single underlying factor**—best interpreted as:
