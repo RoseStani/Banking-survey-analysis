@@ -29,7 +29,7 @@ Only **one component** had an **Eigenvalue > 1**, explaining **35.7% of total va
 The **Scree Plot** showed a clear "elbow" after the first component, justifying the one-factor solution.
 <!-- Scree Plot -->
 <div align="center">
-  <img src="images/pca4.png" width="50%">
+  <img src="../images/pca4.png" width="50%">
 </div>
 ---
 
@@ -46,7 +46,7 @@ The **Scree Plot** showed a clear "elbow" after the first component, justifying 
 
 <!-- Component Matrix -->
 <div align="center">
-  <img src="images/pca5.png" width="50%">
+  <img src="../images/pca5.png" width="50%">
 </div>
 
 **Interpretation**:  
@@ -68,7 +68,7 @@ It suggests that a blend of **risk management and service gaps in primary banks*
 
 <!-- Communalities Table -->
 <div align="center">
-  <img src="images/pca3.png" width="50%">
+  <img src="../images/pca3.png" width="50%">
 </div>
 
 The **mobile app** variable had the **lowest communality** and weakest loading — indicating it's **not a major driver** for using multiple banks in this dataset.
