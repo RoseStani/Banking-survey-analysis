@@ -16,6 +16,7 @@ The goal of this PCA was to determine the underlying **factors influencing consu
 | **Bartlett’s Test of Sphericity** | p < 0.001 | ✅ Significant; data is suitable for factor analysis |
 
 The KMO and Bartlett’s test results suggest that PCA is appropriate for the dataset.
+<!-- KMO & Bartlett Test -->
 <div align="center">
   <img src="images/pca1.png" width="50%">
 </div>
@@ -26,10 +27,10 @@ The KMO and Bartlett’s test results suggest that PCA is appropriate for the da
 
 Only **one component** had an **Eigenvalue > 1**, explaining **35.7% of total variance**.  
 The **Scree Plot** showed a clear "elbow" after the first component, justifying the one-factor solution.
+<!-- Scree Plot -->
 <div align="center">
   <img src="images/pca4.png" width="50%">
 </div>
-
 ---
 
 ### 🔍 Component Matrix (Factor Loadings)
@@ -43,6 +44,7 @@ The **Scree Plot** showed a clear "elbow" after the first component, justifying 
 | My primary bank's customer support is slow or unhelpful | .519 | Dissatisfaction with primary bank |
 | Would switch to a bank with a better mobile app | .410 | Moderate tech influence |
 
+<!-- Component Matrix -->
 <div align="center">
   <img src="images/pca5.png" width="50%">
 </div>
@@ -64,6 +66,7 @@ It suggests that a blend of **risk management and service gaps in primary banks*
 | Customer service dissatisfaction | .270 |
 | Better mobile app | **.168** (lowest) |
 
+<!-- Communalities Table -->
 <div align="center">
   <img src="images/pca3.png" width="50%">
 </div>
