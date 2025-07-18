@@ -51,8 +51,8 @@ drop_keywords = [
     "What type of accounts do you have",
     "How often do you use your secondary bank",
     "Why do you use your secondary bank",
-    "What would make you stick to just one bank",
-    "If banks were smartphones"
+    "What would make you stick to just one bank? (SELECT ALL THAT APPLY)",
+    "If banks were smartphones, your primary bank is a(n) ______ because it’s ______. (CHOOSE ONE)"
 ]
 
 # Drop columns if they contain any of the keywords above
