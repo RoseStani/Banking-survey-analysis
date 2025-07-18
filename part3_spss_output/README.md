@@ -8,7 +8,7 @@ The goal of this PCA was to determine the underlying **factors influencing consu
 
 ### (I) PCA Results Summary
 
-#### ✔️ Sampling Adequacy
+####  Sampling Adequacy
 
 | Test | Value | Interpretation |
 |------|--------|----------------|
@@ -16,6 +16,9 @@ The goal of this PCA was to determine the underlying **factors influencing consu
 | **Bartlett’s Test of Sphericity** | p < 0.001 | ✅ Significant; data is suitable for factor analysis |
 
 The KMO and Bartlett’s test results suggest that PCA is appropriate for the dataset.
+<div align="center">
+  <img src="images/pca1.png" width="50%">
+</div>
 
 ---
 
@@ -23,7 +26,9 @@ The KMO and Bartlett’s test results suggest that PCA is appropriate for the da
 
 Only **one component** had an **Eigenvalue > 1**, explaining **35.7% of total variance**.  
 The **Scree Plot** showed a clear "elbow" after the first component, justifying the one-factor solution.
-
+<div align="center">
+  <img src="images/pca4.png" width="50%">
+</div>
 
 ---
 
@@ -37,6 +42,10 @@ The **Scree Plot** showed a clear "elbow" after the first component, justifying 
 | I use a secondary bank based on someone's recommendation | .579 | Social influence |
 | My primary bank's customer support is slow or unhelpful | .519 | Dissatisfaction with primary bank |
 | Would switch to a bank with a better mobile app | .410 | Moderate tech influence |
+
+<div align="center">
+  <img src="images/pca5.png" width="50%">
+</div>
 
 **Interpretation**:  
 This single extracted component combines concerns around financial security, convenience, specific financial products, social trust, and dissatisfaction.  
@@ -55,11 +64,15 @@ It suggests that a blend of **risk management and service gaps in primary banks*
 | Customer service dissatisfaction | .270 |
 | Better mobile app | **.168** (lowest) |
 
-👉 The **mobile app** variable had the **lowest communality** and weakest loading — indicating it's **not a major driver** for using multiple banks in this dataset.
+<div align="center">
+  <img src="images/pca3.png" width="50%">
+</div>
+
+The **mobile app** variable had the **lowest communality** and weakest loading — indicating it's **not a major driver** for using multiple banks in this dataset.
 
 ---
 
-### 🧠 Final Insight: What Drives Multi-Banking?
+### Final Insight: What Drives Multi-Banking?
 
 This PCA suggests a **single underlying factor**—best interpreted as:
 
@@ -70,7 +83,7 @@ This PCA suggests a **single underlying factor**—best interpreted as:
 > - ✅ Mitigate poor service from their primary bank  
 > - ✅ Rely on social trust/recommendations
 
-📌 **Contrary to assumptions**, **mobile app quality** alone is **not a strong driver** for holding multiple bank accounts.
+ **Contrary to assumptions**, **mobile app quality** alone is **not a strong driver** for holding multiple bank accounts.
 
 ---
 
