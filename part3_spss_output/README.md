@@ -18,7 +18,7 @@ The goal of this PCA was to determine the underlying **factors influencing consu
 The KMO and Bartlett’s test results suggest that PCA is appropriate for the dataset.
 <!-- KMO & Bartlett Test -->
 <div align="center">
-  <img src="images/pca1.png" width="50%">
+  <img src="../images/pca1.png" width="50%">
 </div>
 
 ---
