@@ -101,6 +101,6 @@ df_cleaned.head()
 
 ---
 
-Next up: [View Part 3](part3_spss_output/README.md) – SPSS Outputs & Interpretation.
+Next up: [Part 3](../part3_spss_output/)  – SPSS Outputs & Interpretation.
 
 ---
