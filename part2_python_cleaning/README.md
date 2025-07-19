@@ -99,4 +99,9 @@ print("✅ Cleaned dataset saved as Cleaned_Banking_Survey.xlsx")
 df_cleaned.head()
 ```
 
+---
 
+**Next up: [Part 3 – SPSS Outputs & Interpretation](#)**  
+In Part 3, we explore the statistical output generated from SPSS, focusing on interpreting regression tables, significance levels, and diagnostic results in the context of econometric analysis.
+
+---
